@@ -9,19 +9,19 @@
   };
 
   // TODO: plug this into your real profile username
-  let userName = 'Ton pseudo';
+  let userName = 'Lina';
 
   // default: user is private
   let isPublic = false;
   let hasMounted = false;
 
   const baseLeaderboard: Entry[] = [
-      { rank: 1, name: 'XXX' },
-      { rank: 2, name: 'YYYY' },
+      { rank: 1, name: 'Le Boss' },
+      { rank: 2, name: 'Celine Dion' },
       // ...
-      { rank: 68, name: 'aaaaa' },
-      { rank: 69, name: 'temporary user placement', isUser: true },
-      { rank: 70, name: 'yyyyyyyyyyyyyyyyyy' }
+      { rank: 68, name: 'Alain' },
+      { rank: 69, name: 'Lina', isUser: true },
+      { rank: 70, name: 'Hipo' }
   ];
 
   onMount(() =>
@@ -46,7 +46,7 @@
       {
           return {
               ...entry,
-              name: isPublic ? userName : 'Temporary user placement'
+              name: isPublic ? userName : 'Placement temporaire'
           };
       }
       return entry;
