@@ -75,7 +75,7 @@
   let coupons: Coupon[] = [
     {
       id: "cafe",
-      title: "Café bio offert",
+      title: "Café testbio offert",
       description: "Un expresso chez Bloom Café après 20 collectes.",
       tier: 2,
       partner: "Bloom Café",
