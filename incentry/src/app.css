@@ -402,10 +402,10 @@ a {
 }
 
 .hero-top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) auto auto;
     gap: 1rem;
+    align-items: center;
 }
 
 .hero-copy h1 {
@@ -419,9 +419,9 @@ a {
 }
 
 .hero-score {
-    min-width: 200px;
-    padding: 1rem;
-    border-radius: 20px;
+    min-width: 160px;
+    padding: 0.85rem;
+    border-radius: 16px;
     background: rgba(47, 184, 117, 0.12);
     border: 1px solid rgba(47, 184, 117, 0.2);
     text-align: center;
@@ -434,7 +434,7 @@ a {
 }
 
 .hero-actions {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     display: flex;
     justify-content: center;
 }
@@ -443,14 +443,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.75rem;
+    padding: 0.3rem;
 }
 
 .hero-logo img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
-    border: 1px solid rgba(5, 27, 19, 0.15);
+    width: 90px;
+    height: 90px;
+    border-radius: 18px;
+    border: 1px solid rgba(5, 27, 19, 0.12);
     object-fit: cover;
 }
 

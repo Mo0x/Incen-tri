@@ -66,8 +66,6 @@
     { level: 5, label: "Ruche", reward: "Kit compost maison" },
     { level: 6, label: "BiodiverCity", reward: "Collecte à domicile test" },
     { level: 7, label: "Grainothèque", reward: "Pack graines locales" },
-    { level: 8, label: "Quartier zéro déchet", reward: "Co-création d'un point" },
-    { level: 9, label: "Forêt urbaine", reward: "Accès anticipé + merch" }
   ];
 
   let activeTab: ProfileTab = "stats";
@@ -154,7 +152,7 @@
       <div class="card">
         <div class="section-header">
           <h2 class="section-title">Récompenses par tier</h2>
-          <span class="pill">0 → 9</span>
+          <span class="pill">0 → 7</span>
         </div>
         <ul class="tier-ladder">
           {#each tierMilestones as tier}
