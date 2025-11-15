@@ -433,6 +433,13 @@ a {
     line-height: 1;
 }
 
+.hero-actions {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
 .goal-meta {
     display: flex;
     justify-content: space-between;
@@ -471,6 +478,41 @@ a {
 .trivia-scroll {
     max-height: 200px;
     overflow-y: auto;
+}
+
+.coupon-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+}
+
+.coupon-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(5, 27, 19, 0.45);
+    backdrop-filter: blur(4px);
+    border: none;
+    padding: 0;
+}
+
+.coupon-panel {
+    position: relative;
+    max-width: 480px;
+    width: calc(100% - 2rem);
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 21;
+}
+
+.coupon-panel__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .tier-ladder {
