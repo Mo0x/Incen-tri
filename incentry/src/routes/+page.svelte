@@ -1,4 +1,5 @@
 <script lang="ts">
+  import logo from '$lib/assets/Logo_incentri.png';
   const user = {
     name: "Lina",
     city: "Reims",
@@ -129,6 +130,9 @@
           <span>Points semaine</span>
           <strong>{user.weekPoints}</strong>
           <small>{user.streak} semaines d'affilée</small>
+        </div>
+        <div class="hero-logo">
+          <img src={logo} alt="Logo Incen'tri" />
         </div>
       </div>
       <div class="tier-status">
