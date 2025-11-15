@@ -1,0 +1,20 @@
+<svg width="400" height="320" viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d6f4e3" />
+      <stop offset="100%" stop-color="#b4e1cb" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="320" rx="32" fill="url(#g)" />
+  <g fill="none" stroke="#0d3a26" stroke-width="3">
+    <path d="M120 220 L160 120 L200 220 Z" fill="#fefefe" />
+    <path d="M180 120 C210 60 280 60 300 140" />
+    <circle cx="260" cy="160" r="26" />
+    <path d="M250 188 L240 230" />
+    <path d="M270 188 L282 240" />
+    <path d="M210 220 L320 220" />
+  </g>
+  <text x="200" y="280" font-family="Inter, Arial" font-size="20" fill="#0d3a26" text-anchor="middle">
+    Photo collecte à venir
+  </text>
+</svg>
